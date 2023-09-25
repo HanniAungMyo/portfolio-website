@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body {
+        @apply text-whiteColor bg-primaryColor tracking-wider;
+    }
+    section {
+@apply pt-14 pb-4 md:pt-20
+    }
+}
+
+@layer components {
+    .btn {
+        @apply text-center capitalize inline-block py-3 px-8 text-sm rounded-md cursor-pointer ease-linear duration-200
+    }
+    .btn-primary{
+        @apply text-black bg-secondaryColor hover:opacity-75
+    }
+}
+
+@layer utilities {
+    .paragraph{
+        @apply text-paragraphColor leading-5 text-xs
+    }
+}
+

@@ -24,5 +24,9 @@
     .paragraph{
         @apply text-paragraphColor leading-5 text-xs
     }
+    .card_title{
+        @apply
+           font-mono uppercase font-bold lg:text-6xl text-xl
+    }
 }
 
